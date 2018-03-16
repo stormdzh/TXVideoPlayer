@@ -1,2 +1,6 @@
 # TXVideoPlayer
 对腾讯播放器的简单封装，可以支持MP4，m3u8，ts等主流的视屏格式。可以方便的显示视屏的第一帧，在手机上使用足以满足，后来在发现在tv版上不适用，因为没有x86架构的cpu架构，总体来说是比较完美的视屏播放sdk。
+
+![效果图1](https://github.com/stormdzh/TXVideoPlayer/blob/master/pre/pre0.png)
+
+![效果图2](https://github.com/stormdzh/TXVideoPlayer/blob/master/pre/pre1.png)
