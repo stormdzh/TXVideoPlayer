@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <!-- <SurfaceView
+        android:id="@+id/mSurfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+
+    <com.tencent.rtmp.ui.TXCloudVideoView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible" />
+
+    <include layout="@layout/zz_video_player_title_bar" />
+
+    <include layout="@layout/zz_video_player_controller2" />
+
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/loadingImageView"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center"
+        android:src="@drawable/loading_animation"
+        android:visibility="gone"/>
+</RelativeLayout>
